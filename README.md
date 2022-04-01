@@ -1,0 +1,2 @@
+# passwordGenerator
+Scrimba Solo-project
