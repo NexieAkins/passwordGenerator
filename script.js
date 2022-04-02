@@ -10,12 +10,8 @@ let characters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M
 let passwordRange = document.getElementById("password-range")
 
 
-passwordRange.oninput = function () {
-    passwordRange.textContent = this.value
-       passGen()
-}
-
 function passGen() {
+    passwordRange.textContent = passwordRange.value
     pass1.textContent = ""
     pass2.textContent = ""
     pass3.textContent = ""
